@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="rcsnd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="95"/>
+        <CursorPos X="63" Y="116"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="58" TopLine="41"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="82" TopLine="65"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="83" TopLine="65"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="84" TopLine="65"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="85" TopLine="65"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="114" TopLine="97"/>
+      </Position6>
+      <Position7>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="116" TopLine="97"/>
+      </Position7>
+      <Position8>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="118" TopLine="97"/>
+      </Position8>
+      <Position9>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="119" TopLine="97"/>
+      </Position9>
+      <Position10>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="116" TopLine="97"/>
+      </Position10>
+      <Position11>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="118" TopLine="97"/>
+      </Position11>
+      <Position12>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="119" TopLine="97"/>
+      </Position12>
+      <Position13>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="116" TopLine="97"/>
+      </Position13>
+      <Position14>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="121" TopLine="97"/>
+      </Position14>
+      <Position15>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="123" TopLine="97"/>
+      </Position15>
+      <Position16>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="88" TopLine="71"/>
+      </Position16>
+      <Position17>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="89" TopLine="71"/>
+      </Position17>
+      <Position18>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="90" TopLine="71"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="91" TopLine="71"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="92" TopLine="71"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="93" TopLine="71"/>
+      </Position21>
+      <Position22>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="94" TopLine="71"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="95" TopLine="71"/>
+      </Position23>
+      <Position24>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="96" TopLine="71"/>
+      </Position24>
+      <Position25>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position25>
+      <Position26>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="135" TopLine="104"/>
+      </Position26>
+      <Position27>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="128" TopLine="104"/>
+      </Position27>
+      <Position28>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="129" TopLine="104"/>
+      </Position28>
+      <Position29>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="130" TopLine="104"/>
+      </Position29>
+      <Position30>
+        <Filename Value="rcsnd.pas"/>
+        <Caret Line="128" Column="18" TopLine="104"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="4">
+      <Item1>
+        <Expression Value="line"/>
+      </Item1>
+      <Item2>
+        <Expression Value="day"/>
+      </Item2>
+      <Item3>
+        <Expression Value="month"/>
+      </Item3>
+      <Item4>
+        <Expression Value="year"/>
+      </Item4>
+    </Watches>
+  </Debugging>
+</CONFIG>
