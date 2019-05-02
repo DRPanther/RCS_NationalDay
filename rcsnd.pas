@@ -107,8 +107,8 @@ begin
     programend(1);
   end;
   repeat
-    readln(ndin,line);
-  until line=day;
+    readln(ndin,line)
+  until ((line) = (day));
   readln(ndin,line);
   header;
   While not eof(ndin) do
