@@ -11,7 +11,7 @@ uses
 
 Const
   prog      = 'RCS National Day of ... ';
-  ver       = '1.0.0.1';
+  ver       = '2.0.0.0';
   copywrite = '2019';
   red       = (#27'[1;31m');
   green     = (#27'[1;32m');
@@ -61,7 +61,7 @@ Procedure datecheck;
 begin
   year:=(FormatDateTime('YYYY',(today)));
   month:=(FormatDateTime('M',(today)));
-  day:=(FormatDateTime('D',(today)));
+  day:=(FormatDateTime('DD',(today)));
 end;
 
 Procedure startup;
@@ -106,9 +106,10 @@ begin
     writeln('File nd.'+month+' could not be opened!');
     programend(1);
   end;
+  //day:='2';
   repeat
-    readln(ndin,line);
-  until line=day;
+    readln(ndin,line)
+  until ((line) = (day));
   readln(ndin,line);
   header;
   While not eof(ndin) do
@@ -128,6 +129,8 @@ begin
   CloseFile(ndin);
   CloseFile(ndout);
 end;
+
+{$R *.res}
 
 begin
   startup;
