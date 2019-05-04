@@ -11,7 +11,7 @@ uses
 
 Const
   prog      = 'RCS National Day of ... ';
-  ver       = '2.0.0.0';
+  ver       = '2.0.0.2';
   copywrite = '2019';
   red       = (#27'[1;31m');
   green     = (#27'[1;32m');
@@ -111,16 +111,20 @@ begin
   until ((line) = (day));
   readln(ndin,line);
   header;
+//  day:=IntToStr(StrToInt(day)+1);
   While not eof(ndin) do
   begin
-    While (line<>IntToStr((StrToInt(day)+1)))or(not eof(ndin)) do
+    While not eof(ndin) do
     begin
-      writeln(ndout,nocolor+(PadCenter(line,78)));
-      readln(ndin,line);
+      repeat
+        writeln(ndout,(PadCenter(line,78)));
+        readln(ndin,line);
+        if line='' then exit;
+      until (line='');
     end;
     break;
   end;
-  footer;
+  //footer;
 end;
 
 Procedure wrapup;
@@ -134,6 +138,7 @@ end;
 begin
   startup;
   readndfile;
+  footer;
   wrapup;
 end.
 
