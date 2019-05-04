@@ -8,137 +8,137 @@
         <Filename Value="rcsnd.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="98"/>
-        <CursorPos Y="110"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="10"/>
+        <CursorPos X="23" Y="14"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="120" TopLine="101"/>
       </Position1>
       <Position2>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="112" TopLine="89"/>
+        <Caret Line="121" TopLine="101"/>
       </Position2>
       <Position3>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="122" TopLine="101"/>
       </Position3>
       <Position4>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="112" TopLine="89"/>
+        <Caret Line="117" TopLine="101"/>
       </Position4>
       <Position5>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="120" TopLine="101"/>
       </Position5>
       <Position6>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="104" TopLine="89"/>
+        <Caret Line="121" TopLine="101"/>
       </Position6>
       <Position7>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="122" TopLine="101"/>
       </Position7>
       <Position8>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="112" TopLine="89"/>
+        <Caret Line="123" TopLine="101"/>
       </Position8>
       <Position9>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="120" TopLine="101"/>
       </Position9>
       <Position10>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="112" TopLine="89"/>
+        <Caret Line="121" TopLine="101"/>
       </Position10>
       <Position11>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="89"/>
+        <Caret Line="122" TopLine="101"/>
       </Position11>
       <Position12>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="112" TopLine="89"/>
+        <Caret Line="123" TopLine="101"/>
       </Position12>
       <Position13>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="109" TopLine="98"/>
+        <Caret Line="120" TopLine="101"/>
       </Position13>
       <Position14>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="104" TopLine="98"/>
+        <Caret Line="121" TopLine="101"/>
       </Position14>
       <Position15>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="122" TopLine="101"/>
       </Position15>
       <Position16>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="123" TopLine="101"/>
       </Position16>
       <Position17>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="120" TopLine="101"/>
       </Position17>
       <Position18>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="121" TopLine="101"/>
       </Position18>
       <Position19>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="122" TopLine="101"/>
       </Position19>
       <Position20>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="104" TopLine="98"/>
+        <Caret Line="123" TopLine="101"/>
       </Position20>
       <Position21>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="120" TopLine="101"/>
       </Position21>
       <Position22>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="121" TopLine="101"/>
       </Position22>
       <Position23>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="122" TopLine="101"/>
       </Position23>
       <Position24>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="123" TopLine="101"/>
       </Position24>
       <Position25>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="120" TopLine="101"/>
       </Position25>
       <Position26>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="121" TopLine="101"/>
       </Position26>
       <Position27>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="122" TopLine="101"/>
       </Position27>
       <Position28>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="123" TopLine="101"/>
       </Position28>
       <Position29>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="110" TopLine="98"/>
+        <Caret Line="120" TopLine="101"/>
       </Position29>
       <Position30>
         <Filename Value="rcsnd.pas"/>
-        <Caret Line="111" TopLine="98"/>
+        <Caret Line="122" Column="29" TopLine="108"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
   <Debugging>
-    <BreakPoints Count="1">
+    <BreakPoints Count="2">
       <Item1>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
@@ -146,8 +146,15 @@
         <Source Value="rcsnd.pas"/>
         <Line Value="104"/>
       </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="rcsnd.pas"/>
+        <Line Value="117"/>
+      </Item2>
     </BreakPoints>
-    <Watches Count="4">
+    <Watches Count="6">
       <Item1>
         <Expression Value="line"/>
       </Item1>
@@ -160,6 +167,12 @@
       <Item4>
         <Expression Value="year"/>
       </Item4>
+      <Item5>
+        <Expression Value="StrToInt(day)+1"/>
+      </Item5>
+      <Item6>
+        <Expression Value="(day)+1"/>
+      </Item6>
     </Watches>
   </Debugging>
 </CONFIG>

@@ -61,7 +61,7 @@ Procedure datecheck;
 begin
   year:=(FormatDateTime('YYYY',(today)));
   month:=(FormatDateTime('M',(today)));
-  day:=(FormatDateTime('DD',(today)));
+  day:=(FormatDateTime('D',(today)));
 end;
 
 Procedure startup;
@@ -106,22 +106,25 @@ begin
     writeln('File nd.'+month+' could not be opened!');
     programend(1);
   end;
-  //day:='2';
   repeat
     readln(ndin,line)
   until ((line) = (day));
   readln(ndin,line);
   header;
+//  day:=IntToStr(StrToInt(day)+1);
   While not eof(ndin) do
   begin
-    While (line<>IntToStr((StrToInt(day)+1)))or(not eof(ndin)) do
+    While not eof(ndin) do
     begin
-      writeln(ndout,nocolor+(PadCenter(line,78)));
-      readln(ndin,line);
+      repeat
+        writeln(ndout,(PadCenter(line,78)));
+        readln(ndin,line);
+        if line='' then exit;
+      until (line='');
     end;
     break;
   end;
-  footer;
+  //footer;
 end;
 
 Procedure wrapup;
@@ -135,6 +138,7 @@ end;
 begin
   startup;
   readndfile;
+  footer;
   wrapup;
 end.
 
